@@ -1,5 +1,6 @@
 <html>
   <head>
+    <link type="text/css" rel="stylesheet" href="style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="convert.js"></script>
     <title>Chess Notation Converter</title>
@@ -8,9 +9,9 @@
 	  <h3>Chess Notation Converter</h3>
 	  <p>converts from german notation to english notation</p>
 	  <form id="converter" >
-	    <textarea id="in"></textarea>	
-		<textarea id="out"></textarea>
-		<input type="submit" value="convert"><!-- TODO html5 form? -->
+	    <textarea id="in" class="iotext"></textarea>	
+		<textarea id="out" class="iotext"></textarea>
+		<input class="submitbutton" type="submit" value="convert"><!-- TODO html5 form? -->
 	  </form>
     </body>
 </html>
