@@ -2,9 +2,9 @@
  * jQuery Convert v0.1
  */
  
-$(document).ready(function(){
+//$(document).ready(function(){
 	
-});
+//});
 
  function convert(){
     var algo = $('.convert-mode option:selected').val();
@@ -79,3 +79,7 @@ function setCharAt(str,index,chr) {
     if(index > str.length-1) return str;
     return str.substr(0,index) + chr + str.substr(index+1);
 }
+
+module.exports = {
+  pgne2d: pgne2g(str);
+};
