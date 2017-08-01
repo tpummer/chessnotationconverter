@@ -3,9 +3,10 @@
  */
  
 $(document).ready(function(){
-  $('#converter').submit(function(e) {
-    e.preventDefault();
-    
+	
+});
+
+ function convert(){
     var algo = $('.convert-mode option:selected').val();
     var input = $('#in').val();
     
@@ -16,8 +17,7 @@ $(document).ready(function(){
     }
     
     $('#out').val(result);
-  });
-});
+  };
 
 function pgng2e(str){
    var isComment = 0;
